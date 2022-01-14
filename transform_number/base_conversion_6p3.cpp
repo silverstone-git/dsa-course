@@ -1,5 +1,5 @@
 // to make a converter between binary, octal, decimal, and hexadecimal
-// this doesn't compile because I have yet to figure out how to include map in c++
+// I am yet to figure out how to convert map form of number to string as of 11th jan '22
 
 #include <iostream>
 #include <string>
