@@ -15,8 +15,10 @@ int binary_search(int arr[], int n, int key) {
 		if(arr[mid] == key) {
 			return mid;
 		} else if(arr[mid] > key) {
+			// reducing the array to the slice on the left of mid
 			end = mid-1;
 		} else if(arr[mid] < key) {
+			// reducing the array to the slice on the right of mid
 			start = mid+1;
 		}
 	}
