@@ -18,7 +18,7 @@ int main() {
     int primary_loop_limit = n;
     int secondary_loop_limit = n;
     int tmp;
-    for(int i = 0; i < primary_loop_limit; i ++) {
+    for(int i = 0; i < primary_loop_limit-1; i ++) {
         for(int j = 0; j < secondary_loop_limit-1; j ++) {
             if(myarr[j+1] < myarr[j]) {
                 tmp = myarr[j+1];
