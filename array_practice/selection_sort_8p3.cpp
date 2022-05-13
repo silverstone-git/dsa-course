@@ -1,7 +1,6 @@
 // sort an array using selection sort algorithm
 
 #include <iostream>
-#include <climits>
 
 int* selection_sort(int array[], int n){
 	

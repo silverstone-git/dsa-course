@@ -1,4 +1,4 @@
-// to take an array and a number i and find the maximum till it
+// to take an array and a number i and find the maximum till that
 
 #include <iostream>
 
@@ -15,20 +15,17 @@ int main() {
             std::cin >> myarr[i];
     }
 
-    int i;
-    std::cout << "Enter the i index till which you want max: ";
-    std::cin >> i;
 
-    int mx = myarr[0];
-    for(int t = 0; t <= i; t ++) {
-        if (myarr[t] > mx) {
-            mx = myarr[t];
+    int i, mx;
+    mx = myarr[0];
+    for(i = 1; i < n; i ++) {
+        if (myarr[i] > mx) {
+            mx = myarr[i];
         }
+
+        std::cout << "max till " << i << " is: " << mx << std::endl;
     }
-    
-
-	std::cout << mx << std::endl;
-
     return 0;
+
 }
 
